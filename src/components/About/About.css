@@ -1,0 +1,90 @@
+.about {
+    padding: 58px 0;
+}
+
+.about__title {
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #48555b;
+}
+
+.about__title::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 2px;
+    background-color: #00a4e5;
+}
+
+.about__content {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+
+.about__content-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about__content-title {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+
+.about__content-title span {
+    color: #16ace8;
+}
+
+.about__content-desc {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+
+.about__content-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.about__content-item:nth-of-type(1) {
+    background: url("/bitmap-1.png") no-repeat center center / cover;
+    width: 140px;
+    height: 224px;
+}
+
+.about__content-item:nth-of-type(2) {
+    background: url("/bitmap-2.png") no-repeat center center / cover;
+    width: 140px;
+    height: 224px;
+}
+.about__content-item:nth-of-type(3) {
+    background: url("/bitmap-3.png") no-repeat center center / cover;
+    width: 140px;
+    height: 224px;
+}
+
+.about__content-subtitle {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 121%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.about__content-item {
+    padding: 15px 12px;
+}
