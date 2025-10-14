@@ -1,4 +1,5 @@
 import About from "./components/About/About"
+import GetInTouch from "./components/GetInTouch/GetInTouch"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
 import Services from "./components/Services/Services"
@@ -11,6 +12,7 @@ const App = () => {
         <Hero />
         <About/>
         <Services/>
+        <GetInTouch/>
       </main>
     </>
   )
