@@ -1,6 +1,7 @@
 .touch {
     background: url('/touch-bg.png') no-repeat center center / cover;
     height: 100%;
+    background-attachment: fixed;
 }
 .touch_content {
     display: flex;
