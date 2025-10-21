@@ -1,4 +1,5 @@
 import About from "./components/About/About"
+import Footer from "./components/Footer/Footer"
 import GetInTouch from "./components/GetInTouch/GetInTouch"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
@@ -16,6 +17,8 @@ const App = () => {
         <GetInTouch/>
         <Newsletter/>
       </main>
+      <Footer/>
+
     </>
   )
 }
