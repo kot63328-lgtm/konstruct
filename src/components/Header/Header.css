@@ -103,8 +103,8 @@
     }
 
     .header__mobile-btn {
-        position: fixed;
+        position: absolute;
         top: 24px;
-        right: 24px;
+        right: 16px;
     }
 }
