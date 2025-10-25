@@ -98,3 +98,22 @@
     color: #fff;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .footer__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer__wrapper {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .footer__links {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
