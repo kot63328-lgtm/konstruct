@@ -44,3 +44,13 @@
 .newsletter__btn:hover {
     background-color: #026991;
 }
+
+@media (max-width: 425px) {
+    .newsletter__wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .newsletter__btn {
+        padding: 11px 20px;
+    }
+}

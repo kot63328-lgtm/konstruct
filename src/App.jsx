@@ -15,7 +15,7 @@ const App = () => {
         <About/>
         <Services/>
         <GetInTouch/>
-        {/* <Newsletter/> */}
+         <Newsletter/>
       </main>
       {/* <Footer/> */}
 
