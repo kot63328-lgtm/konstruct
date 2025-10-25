@@ -88,3 +88,34 @@
 .about__content-item {
     padding: 15px 12px;
 }
+
+@media (max-width: 768px) {
+    .about__content {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 80px;
+    }
+    .about__content-item:nth-of-type(1),
+    .about__content-item:nth-of-type(2),
+    .about__content-item:nth-of-type(3) {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .about__title {
+        font-size: 16px;
+    }
+
+    .about__content-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about__content {
+        gap: 40px;
+    }
+
+    .about__content-subtitle {
+        font-size: 20px;
+    }
+}

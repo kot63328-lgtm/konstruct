@@ -40,7 +40,7 @@
     cursor: pointer;
     margin-top: 200px;
 }
- 
+
 @media (max-width: 768px) {
     .hero__title {
         font-size: 50px;
