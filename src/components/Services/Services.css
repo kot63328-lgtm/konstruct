@@ -86,3 +86,37 @@
     letter-spacing: 0.19px;
     color: #48555b;
 }
+
+@media (max-width: 768px) {
+    .services__content {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .services__title::after {
+        bottom: -10px;
+    }
+    .services__list {
+        gap: 20px;
+    }
+
+    @media (max-width: 425px) {
+        .services__content {
+            align-items: center;
+        }
+        .services__list {
+            grid-template-columns: 1fr;
+        }
+        .services__info {
+            flex-direction: column;
+        }
+        .services__title::after {
+            left: 50%;
+        }
+        .services__item-img {
+            width: 45px;
+            height: 55px;
+        }
+    }
+}
