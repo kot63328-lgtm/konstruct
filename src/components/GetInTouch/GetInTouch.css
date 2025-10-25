@@ -37,3 +37,9 @@ transition: all 0.3s ease;
 .touch_btn:hover {
     background-color: #026991;
 }
+
+@media (max-width: 425px) {
+    .touch_title  {
+        font-size: 24px;
+    }
+}
