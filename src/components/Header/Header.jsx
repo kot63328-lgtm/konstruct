@@ -13,10 +13,10 @@ function Header() {
 
 
   return (
-   <header className='header'>
+   <header className='header' id='home'>
     <div className='container'>
         <div className='header__wrapper'>
-            <a className='header__logo' href="/">
+            <a className='header__logo' href="/" >
             <img className='header__logo-img'
             src="/logo-black.svg" 
             alt="header logo image" 
@@ -27,19 +27,19 @@ function Header() {
             <nav className='header__nav'>
                 <ul className='header__nav-list'>
                     <li className='header__nav-item'>
-                        <a className='header__nav-link' href="#">Home</a>
+                        <a className='header__nav-link' href="/">Home</a>
                     </li>
                     <li className='header__nav-item'>
-                        <a className='header__nav-link' href="#">About</a>
+                        <a className='header__nav-link' href="#about">About</a>
                     </li>
                     <li className='header__nav-item'>
-                        <a className='header__nav-link' href="#">Services</a>
+                        <a className='header__nav-link' href="#services">Services</a>
                     </li>
                     <li className='header__nav-item'>
-                        <a className='header__nav-link' href="#">Work</a>
+                        <a className='header__nav-link' href="#work">Work</a>
                     </li>
                     <li className='header__nav-item'>
-                        <a className='header__nav-link' href="#">Contact</a>
+                        <a className='header__nav-link' href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -57,19 +57,19 @@ function Header() {
             <nav className={`header__mobile-nav ${isMobile ? 'active' : ''}`}>
               <ul className="header__mobile-list">
                 <li className="header__mobile-item">
-                  <a className="header__mobile-link" href="#">Home</a>
+                  <a className="header__mobile-link" href="/">Home</a>
                 </li>
                 <li className="header__mobile-item">
-                  <a className="header__mobile-link" href="#">About</a>
+                  <a className="header__mobile-link" href="#about">About</a>
                 </li>
                 <li className="header__mobile-item">
-                  <a className="header__mobile-link" href="#">Services</a>
+                  <a className="header__mobile-link" href="#services">Services</a>
                 </li>
                 <li className="header__mobile-item">
-                  <a className="header__mobile-link" href="#">Work</a>
+                  <a className="header__mobile-link" href="#work">Work</a>
                 </li>
                 <li className="header__mobile-item">
-                  <a className="header__mobile-link" href="#">Contact</a>
+                  <a className="header__mobile-link" href="#contact">Contact</a>
                 </li>
               </ul>
             </nav>

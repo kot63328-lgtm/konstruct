@@ -2,7 +2,7 @@ import './GetInTouch.css'
 
 const GetInTouch = () => {
   return (
-     <section className="touch">
+     <section className="touch" id='work'>
         <div className="container">
             <div className="touch_content">
                 <h2 className="touch_title">Want to build <br /> something amazing?</h2>
